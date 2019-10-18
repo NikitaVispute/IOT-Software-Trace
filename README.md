@@ -10,5 +10,6 @@ Technology used: Android (APP), Embedded C (Arduino), GPS/GSM Module, RFID tags,
 
 The software has 3 parts:<br>
 1. The hardware (GSM-GPS Module, Arduino circuit board, RFID tag and reader, WIFI module)<br>
-2. Web Server (Consisting of Admin and Parent user pages, database consisting of location, time and other student details)<br>
-3. Android App (Authentication, Location in real-time maps)
+2. parentchild Web Server (Consisting of Admin and Parent user pages, database consisting of location, time and other student details)<br>
+3. GPS_hardware_app Android App (Authentication of user, Location of bus in real-time maps as retrieved from the database on the web server).<br>
+
