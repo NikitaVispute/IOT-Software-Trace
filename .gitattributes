@@ -1,5 +1,0 @@
-*.java linguist-detectable=true
-*.cs linguist-detectable=true
-* linguist-vendored
-*.js linguist-vendored
-
