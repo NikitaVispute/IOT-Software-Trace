@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Data;
+using System.Web.Configuration;
+
+public partial class Manage_Pilgrims : System.Web.UI.Page
+{
+    SqlConnection conn = new SqlConnection(WebConfigurationManager.ConnectionStrings["connection_string"].ConnectionString);
+    DataSet ds = null;
+    SqlDataAdapter da = null;
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+
+        }
+    }
+
+
+}
