@@ -1,2 +1,4 @@
 *.aspx linguist-detectable=true
 *.java linguist-detectable=true
+*.cs linguist-detectable=true
+
